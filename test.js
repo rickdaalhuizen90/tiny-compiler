@@ -1,10 +1,14 @@
 const {
-  tokenizer,
+  //tokenizer,
   parser,
   transformer,
   codeGenerator,
   compiler,
 } = require('./the-super-tiny-compiler');
+
+// tutorial
+const tokenizer = require('./tokenizer.js');
+
 const assert = require('assert');
 
 const input  = '(add 2 (subtract 4 2))';
